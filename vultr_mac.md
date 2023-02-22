@@ -27,6 +27,14 @@ Password:
 ssh root@1.1.1.1  
 ```
 
+## 搭建v2ray
+```
+bash <(curl -s -L https://git.io/v2ray-setup.sh)
+#关闭防火墙
+systemctl stop firewalld
+```  
+
+<url>https://github.com/yanue/V2rayU/releases</url>
 
 # 错误处理  
 
