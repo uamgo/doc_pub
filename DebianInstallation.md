@@ -1,6 +1,8 @@
 # Debian installation 
 
 ## Mac 制作 Debian U盘 启动盘  
+
+Debian 下载地址: [https://www.debian.org/distrib/](url)  
   
 使用 dd 命令
 
@@ -33,8 +35,9 @@ $ diskutil eject /dev/disk2
 
 要弹出U盘, 请使用上面的命令。完成此操作后, 可启动的U盘已准备就绪。
 
-## Debian installation  
-下载地址: [https://www.debian.org/distrib/](url)  
+## Debian configuration  
+
+### 安装包源
 /etc/apt/sources.list  
 ```  
 deb http://mirrors.aliyun.com/debian/ bullseye main non-free contrib
@@ -58,4 +61,27 @@ deb-src http://mirrors.163.com/debian/ bullseye-backports main non-free contrib
 deb http://mirrors.ustc.edu.cn/debian-security/ stable-security main non-free contrib
 deb-src http://mirrors.ustc.edu.cn/debian-security/ stable-security main non-free contrib
 
-```
+```  
+### 必要的安装包  
+```  
+apt-get update  
+apt-get install vim  
+apt-get install openssh-server
+```  
+### ssh 配置  
+``` 
+vim /etc/ssh/sshd_config 
+
+# 开启这个选项  
+PermitRootLogin yes
+
+# 重启ssh
+/etc/init.d/ssh restart
+# 检查ssh状态
+/etc/init.d/ssh status
+``` 
+
+
+
+
+
