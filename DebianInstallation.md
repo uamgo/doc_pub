@@ -80,7 +80,13 @@ PermitRootLogin yes
 # 检查ssh状态
 /etc/init.d/ssh status
 ``` 
+### 修改普通用户无密码 sudo  
+```  
+sudo visudo
 
+# 增加自己的用户
+<user name>   ALL=(ALL:ALL) NOPASSWD: ALL
+``` 
 
 
 
