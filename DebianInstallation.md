@@ -88,6 +88,14 @@ sudo visudo
 <user name>   ALL=(ALL:ALL) NOPASSWD: ALL
 ``` 
 
+### 关闭休眠  
+```  
+#查看休眠设置
+sudo systemctl status sleep.target
+
+#停止休眠
+sudo systemctl mask sleep.target suspend.target hibernate.target hybird-sleep.target
+```  
 
 
 
