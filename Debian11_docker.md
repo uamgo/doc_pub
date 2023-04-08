@@ -37,4 +37,9 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```  
 sudo groupadd docker
 sudo usermod -aG docker $USER
+
+#重启docker
+sudo systermctl restart docker
+#开机自启动docker
+sudo systermctl enable docker
 ```  
