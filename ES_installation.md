@@ -32,6 +32,17 @@ docker run --name elasticsearch -p 9200:9200  -p 9300:9300 \
 
 ```  
 
+检查是否安装成功  
+1. 日志没有异常  
+``` 
+docker logs elasticsearch
+```  
+2. Restful API 可以连通  
+```  
+curl http://localhost:9200
+```  
+
+
 ## 安装管理界面  
 ### 安装
 ```  
@@ -52,6 +63,17 @@ http.cors.allow-origin: "*"
 ```  
 docker restart elasticsearch
 ```  
+### 检查连通性  
+
+1. 日志没有异常  
+``` 
+docker logs elasticsearch-head
+```  
+2. Restful API 可以连通  
+```  
+curl http://localhost:9100
+```  
+
 
 
 ## 常见问题  
