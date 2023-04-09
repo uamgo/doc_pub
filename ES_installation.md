@@ -101,3 +101,6 @@ TLS握手超时
 sudo systemctl daemon-reload
 sudo systemctl restart docker
 ```  
+
+# 参考文档  
+ES官方安装文档：[https://www.elastic.co/guide/en/elasticsearch/reference/7.5/docker.html#docker-configuration-methods](url)
