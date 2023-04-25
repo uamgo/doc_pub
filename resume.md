@@ -1,17 +1,17 @@
 ## HR&猎头推荐参考  
 * 主要公司经历  
   * 字节跳动
-    * 相关工作关键词：数据引擎、数据平台、数据中台、OLAP、HUDI、Flink、Spark、云原生产品、Python、shell、JVM、Java等
+    * 相关工作关键词：分布式存储、数据引擎、数据平台、数据中台、OLAP、HUDI、Flink、Spark、云原生产品、Python、shell、JVM、Java等
     * 业务方向：电商、短视频、直播、本地生活等
-    * 技术方向：数仓、OLAP、技术平台、技术中台
+    * 技术方向：数仓、OLAP、技术平台、技术中台、分布式存储
   * 易鲸捷
     * 相关工作关键词：近40人管理工作、HBase、大数据存储、分布式数据库、HTAP、JDBC、DevOps、银行项目、DataX、Kettle plugin、Spark JDBC RDD、Antlr、Zookeeper、JVM、Java等
     * 业务方向：银行、物联网、智能制造
-    * 技术方向：分布式数据库、大数据存储、存算分离、HTAP
+    * 技术方向：分布式数据库、分布式存储、大数据、存算分离、HTAP
   * 上海惠普
     * 相关工作关键词：Apache Storm、Kafka、Flume、Redis、HBase、Vertica、Hadoop、MapReduce、Python、Java、Golang、Shell、JVM等
-    * 业务方向：消费
-    * 分布式数据库、流式数据引擎
+    * 业务方向：传统消费、制造、软件
+    * 分布式数据库、流式数据引擎、大数据存储
   * 上海动量
     * 相关工作关键词：Spring MVC、前端、后端、技术平台、模板引擎
     * 业务方向：电子消费、电信
