@@ -12,4 +12,6 @@
 ## V2ray 搭建过程  
 [搭建及连接过程](https://github.com/uamgo/doc_pub/blob/master/vultr_mac.md)
 ##  微信-chatgpt搭建过程  
-[详细过程](https://github.com/uamgo/doc_pub/blob/master/wechat_chatgpt.md)
+[详细过程](https://github.com/uamgo/doc_pub/blob/master/wechat_chatgpt.md)  
+##  闲置台式机搭建共享存储    
+[详细过程](https://github.com/uamgo/doc_pub/blob/master/shared_storage.md)
