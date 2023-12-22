@@ -1,5 +1,9 @@
 ## HR&猎头推荐参考  
 * 主要公司经历  
+  * Hashkey.  
+    *  相关工作关键词：数据平台、Doris、Python、shell、JVM、Java、Airflow、Flink等
+    * 业务方向：区块链、交易所
+    * 技术方向：数仓、OLAP、技术平台、技术中台、分布式存储、数据产品选型  
   * 字节跳动
     * 相关工作关键词：分布式存储、数据引擎、数据平台、数据中台、OLAP、HUDI、Flink、Spark、云原生产品、Python、shell、JVM、Java等
     * 业务方向：电商、短视频、直播、本地生活等
