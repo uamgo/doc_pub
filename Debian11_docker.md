@@ -13,22 +13,22 @@ sudo apt-get update
     curl \
     gnupg \
     lsb-release
-```  
+```
 2. 安装docker的gpg key：  
 ```  
 
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
-```  
+```
 3. 安装docker源
 ```  
 echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 #上面命令中的lsb_release -cs返回bullseye，也就是debian11的代号。
-```  
+```
 4. 安装docker
 ```  
 apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
-```  
+```
 至此安装完成。
 
 在debian系的Linux发行版上，docker会开机启动启动。
@@ -42,4 +42,15 @@ sudo usermod -aG docker $USER
 sudo systermctl restart docker
 #开机自启动docker
 sudo systermctl enable docker
-```  
+```
+
+阿里源环境安装 docker
+
+```
+curl -sSL https://mirrors.aliyun.com/docker-ce/linux/debian/gpg | gpg --dearmor > /usr/share/keyrings/docker-ce.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-ce.gpg] https://mirrors.aliyun.com/docker-ce/linux/debian $(lsb_release -sc) stable" > /etc/apt/sources.list.d/docker.list
+apt update
+apt-get install docker-ce docker-ce-cli containerd.io
+apt-get install docker-compose-plugin
+```
+
